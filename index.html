@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Script Notes and Exercieses</title>
+</head>
+<body>
+  
+  <h1>Java Script Console Notes</h1>
+  <p id="demo">The User</p>
+
+  <script src="16-denemeobject.js"></script>
+   
+  <script type="text/Javascript">
+    document.write ("Sami İnci'ye merhaba deyin!")
+  </script>
+
+  <script>
+    const person = {
+      firstName:"Ali",
+      lastName:"Veli",
+      id:4950
+    }
+    document.getElementById("demo").innerHTML = person.firstName + " " + person.lastName
+  </script>
+   
+</body>
+</html>
